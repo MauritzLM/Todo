@@ -1,9 +1,14 @@
-function test() {
-    const element = document.createElement('div');
+import './style.css';
+import { createContainer } from './ui';
 
-    element.innerHTML = "Todo test";
 
-    return element;
+function events() {
+    newBtn.addEventListener('click', (e) => {
+        // onclick form appears
+    });
 }
 
-document.body.appendChild(test());
+
+
+document.body.appendChild(createContainer());
+
